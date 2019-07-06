@@ -25,6 +25,7 @@ description: finpy.org
 navbar-links:
   Index: post_index
   About Me: aboutme
+  Key: 
 avatar: "/img/avatar-icon.png"
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
@@ -38,7 +39,7 @@ footer-link-col: "#404040"
 author:
   name: Gowtham Kumar
 social-network-links:
-  rss: false
+  rss: true
   email: gkinba@gmail.com
   github: gowthamsharma
 share-links-active:
@@ -60,7 +61,7 @@ title-separator: "-"
 markdown: kramdown
 highlighter: rouge
 permalink: "/:year-:month-:day-:title/"
-paginate: 5
+paginate: 10
 kramdown:
   input: GFM
 link-tags: true
