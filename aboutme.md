@@ -1,6 +1,6 @@
 ---
-layout: page
 title: About me
+layout: page
 subtitle: Gowtham Kumar Huliyar Nagarajan
 ---
 
