@@ -1,7 +1,7 @@
 ---
 title: 2nd post
 date: 2019-07-06 15:36:00 +02:00
-layout: default
+layout: minimal
 ---
 
 ### This will read in blog/index.html, send it each pagination page in Liquid as paginator and write the output to blog/page:num/, where :num is the pagination page number, starting with 2. 
