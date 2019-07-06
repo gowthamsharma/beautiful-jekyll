@@ -25,7 +25,6 @@ description: finpy.org
 navbar-links:
   Index: post_index
   About Me: aboutme
-  Key: 
 avatar: "/img/avatar-icon.png"
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
