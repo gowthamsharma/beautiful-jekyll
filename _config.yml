@@ -23,7 +23,7 @@ defaults:
     show-avatar: true
 description: finpy.org
 navbar-links:
-  Index: post_index
+  Index: https://finpy.org/tags/
   About Me: aboutme
 avatar: "/img/avatar-icon.png"
 navbar-col: "#F5F5F5"
