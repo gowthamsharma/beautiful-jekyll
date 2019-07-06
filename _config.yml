@@ -38,7 +38,7 @@ footer-link-col: "#404040"
 author:
   name: Gowtham Kumar
 social-network-links:
-  rss: true
+  rss: false
   email: gkinba@gmail.com
   github: gowthamsharma
 share-links-active:
