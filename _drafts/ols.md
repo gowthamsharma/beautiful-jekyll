@@ -21,8 +21,8 @@ layout: post
 
 ## Library: statsmodels, pandas, matplotlib,seaborn
 
-## Data: [StudentsPerformance.csv](/uploads/StudentsPerformance.csv)
-## ipython file: [statsmodels OLS-regression.ipynb](/uploads/statsmodels%20OLS-regression.ipynb)
+## Data: [house-prices-advanced-regression-techniques.zip](/uploads/house-prices-advanced-regression-techniques.zip)
+## ipython file: 
 
 
 {% include s1.html %}
