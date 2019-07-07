@@ -22,7 +22,7 @@ layout: post
 ## Library: statsmodels, pandas, matplotlib,seaborn
 
 ## Data: [house-prices-advanced-regression-techniques.zip](/uploads/house-prices-advanced-regression-techniques.zip)
-## ipython file: [statsmodels OLS-regression.ipynb](/uploads/statsmodels%20OLS-regression.ipynb)
+## ipython file: 
 
 
 {% include s1.html %}
