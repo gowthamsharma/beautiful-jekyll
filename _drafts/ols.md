@@ -25,4 +25,4 @@ layout: post
 ## ipython file: 
 
 
-{% include linear_regression_statsmodels.html %}
+{% include s1.html %}
