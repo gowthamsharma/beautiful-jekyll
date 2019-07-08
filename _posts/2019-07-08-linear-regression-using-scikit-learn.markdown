@@ -5,6 +5,7 @@ categories:
 - scikit-learn
 tags:
 - linear regression
+- scikit-learn
 ---
 
 ### Boston house prices dataset
