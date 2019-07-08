@@ -31,4 +31,4 @@ Boston house prices dataset
 
 ipython: [linear_regression_scikit_learn.ipynb]/uploads/linear_regression_scikit_learn.ipynb)
 
-[linear_regression_scikit_learn.html](/uploads/linear_regression_scikit_learn.html)
+{% include linear_regression_scikit_learn.html %}
