@@ -3,7 +3,7 @@ title: Linear Regression using scikit learn -boston data from sklearn.datasets
 date: 2019-07-08 04:32:00 +02:00
 ---
 
-Boston house prices dataset
+### Boston house prices dataset
 ---------------------------
 
 **Data Set Characteristics:**  
@@ -29,6 +29,6 @@ Boston house prices dataset
         - MEDV     Median value of owner-occupied homes in $1000's
 
 
-ipython: [linear_regression_scikit_learn.ipynb](/uploads/linear_regression_scikit_learn.ipynb)
+### ipython: [linear_regression_scikit_learn.ipynb](/uploads/linear_regression_scikit_learn.ipynb)
 
 {% include linear_regression_scikit_learn.html %}
