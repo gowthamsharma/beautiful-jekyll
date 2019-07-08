@@ -28,6 +28,7 @@ Boston house prices dataset
         - LSTAT    % lower status of the population
         - MEDV     Median value of owner-occupied homes in $1000's
 
+
 ipython: [linear_regression_scikit_learn.ipynb]/uploads/linear_regression_scikit_learn.ipynb)
 
-{% include linear_regression_scikit_learn.html %}
+[linear_regression_scikit_learn.html](/uploads/linear_regression_scikit_learn.html)
