@@ -1,5 +1,5 @@
 ---
-title: Linear Regression using scikit learn
+title: Linear Regression using scikit learn -boston data from sklearn.datasets
 date: 2019-07-08 04:32:00 +02:00
 ---
 
