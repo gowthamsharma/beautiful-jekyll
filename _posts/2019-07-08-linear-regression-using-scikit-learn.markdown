@@ -1,5 +1,5 @@
 ---
-title: Linear Regression using scikit learn
+title: Linear Regression using scikit learn -boston data from sklearn.datasets
 date: 2019-07-08 04:32:00 +02:00
 ---
 
@@ -27,6 +27,7 @@ Boston house prices dataset
         - B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
         - LSTAT    % lower status of the population
         - MEDV     Median value of owner-occupied homes in $1000's
+
 
 ipython: [linear_regression_scikit_learn.ipynb]/uploads/linear_regression_scikit_learn.ipynb)
 
