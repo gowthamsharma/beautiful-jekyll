@@ -20,4 +20,5 @@ tags:
 ##### ipython:[Analysis_titanic_pandas.ipynb](/uploads/Analysis_titanic_pandas.ipynb)
 ##### dataset:[titanic.csv](/uploads/titanic.csv)
 
+[variable description.PNG](/uploads/variable%20description.PNG)
 {% include Analysis_titanic_pandas.html %}
