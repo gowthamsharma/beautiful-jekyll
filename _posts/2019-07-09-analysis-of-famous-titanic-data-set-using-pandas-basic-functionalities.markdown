@@ -5,17 +5,17 @@ tags:
 - pandas
 ---
 
-Analysis:
-Attributes and underlying data
-Conversion
-Indexing, iteration
-Binary operator functions
-Function application, GroupBy & Window
-Computations / Descriptive Stats
-Reindexing / Selection / Label manipulation
-Missing data handling
-Reshaping, sorting, transposing
-Combining / joining / merging
+## Analysis:
+## Attributes and underlying data
+## Conversion
+## Indexing, iteration
+## Binary operator functions
+## Function application, GroupBy & Window
+## Computations / Descriptive Stats
+## Reindexing / Selection / Label manipulation
+## Missing data handling
+## Reshaping, sorting, transposing
+## Combining / joining / merging
 
 ipython:[Analysis_titanic_pandas.ipynb](/uploads/Analysis_titanic_pandas.ipynb)
 dataset:[titanic.csv](/uploads/titanic.csv)
