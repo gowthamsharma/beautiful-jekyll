@@ -40,7 +40,7 @@ footer-link-col: "#404040"
 author:
   name: Gowtham Kumar
 social-network-links:
-  rss: false
+  rss: true
   email: gkinba@gmail.com
   github: gowthamsharma
 share-links-active:
@@ -66,7 +66,7 @@ paginate: 5
 kramdown:
   input: GFM
 link-tags: true
-future: false
+
 exclude:
 - CHANGELOG.md
 - CNAME
@@ -125,6 +125,7 @@ prose:
       field:
         element: checkbox
         label: Publish
+        future: false
         help: Check to publish post, uncheck to hide.
 plugins:
 - jekyll-paginate
