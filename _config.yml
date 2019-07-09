@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    visible: 0
   uploads:
     title: Uploads
     output: true
