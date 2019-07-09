@@ -12,7 +12,6 @@ defaults:
 - scope:
     path: ''
     type: posts
-    
   values:
     layout: post
     comments: true
@@ -22,7 +21,6 @@ defaults:
   values:
     layout: page
     show-avatar: true
-   
 description: finpy.org
 navbar-links:
   Index: https://finpy.org/tags/
@@ -66,7 +64,6 @@ paginate: 5
 kramdown:
   input: GFM
 link-tags: true
-
 exclude:
 - CHANGELOG.md
 - CNAME
