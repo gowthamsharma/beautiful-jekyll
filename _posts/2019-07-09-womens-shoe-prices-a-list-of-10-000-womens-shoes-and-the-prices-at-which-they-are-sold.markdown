@@ -7,6 +7,8 @@ tags:
 - kaggle
 - linear regression
 - ttest
+visible:
+  Key: 1
 ---
 
 This is a list of 10,000 women's shoes and their product information provided by Datafiniti's Product Database.
