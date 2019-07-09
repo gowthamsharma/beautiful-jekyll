@@ -1,6 +1,5 @@
 ---
 title: Home
-future: false
 timezone: Europe/Berlin
 collections:
   posts:
@@ -22,6 +21,7 @@ defaults:
   values:
     layout: page
     show-avatar: true
+future: false
 description: finpy.org
 navbar-links:
   Index: https://finpy.org/tags/
@@ -124,7 +124,6 @@ prose:
         element: checkbox
         label: Publish
         help: Check to publish post, uncheck to hide.
-        
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
