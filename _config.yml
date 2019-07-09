@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    future: false
   uploads:
     title: Uploads
     output: true
@@ -21,7 +22,6 @@ defaults:
   values:
     layout: page
     show-avatar: true
-future: false
 description: finpy.org
 navbar-links:
   Index: https://finpy.org/tags/
