@@ -20,4 +20,4 @@ Combining / joining / merging
 ipython:[Analysis_titanic_pandas.ipynb](/uploads/Analysis_titanic_pandas.ipynb)
 dataset:[titanic.csv](/uploads/titanic.csv)
 
-{& include Analysis_titanic_pandas.html %}
+{% include Analysis_titanic_pandas.html %}
