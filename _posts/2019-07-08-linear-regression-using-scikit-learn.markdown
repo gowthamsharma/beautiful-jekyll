@@ -14,7 +14,7 @@ layout: post
 
 **Data Set Characteristics:**  
 
-    :Number of Instances: 506 
+    :Number of Instances: 506  
 
     :Number of Attributes: 13 numeric/categorical predictive. Median Value (attribute 14) is usually the target.
 
