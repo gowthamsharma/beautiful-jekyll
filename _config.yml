@@ -16,7 +16,6 @@ defaults:
     layout: post
     comments: true
     social-share: true
-    future: false
 - scope:
     path: ''
   values:
@@ -112,7 +111,6 @@ prose:
         help: Enter date of post.
         placeholder: yyyy-mm-dd
         alterable: true
-        future: false
     - name: image
       field:
         element: text
@@ -125,6 +123,7 @@ prose:
         element: checkbox
         label: Publish
         help: Check to publish post, uncheck to hide.
+        future: false
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
