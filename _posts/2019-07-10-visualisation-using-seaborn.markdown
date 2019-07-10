@@ -7,7 +7,7 @@ Reference: https://seaborn.pydata.org/tutorial.html
 
 data: [winequality-white.csv](/uploads/winequality-white.csv), [winequality-red.csv](/uploads/winequality-red.csv), [titanic.csv](/uploads/titanic-3e6feb.csv)
 
-ipynb: [ipynp](https://github.com/gowthamsharma/myblog_finpy.org/blob/gh-pages/uploads_for_posts/visualize_seaborn.ipynb)
+ipynb: [ipynp](https://github.com/gowthamsharma/myblog_finpy.org/blob/gh-pages/uploads/visualize_seaborn.ipynb)
 
 
 {% include visualize_seaborn.html %}
