@@ -1,7 +1,5 @@
 ---
-title: |-
-  Women's Shoe Prices
-  A list of 10,000 women's shoes and the prices at which they are sold.
+title: Women's Shoe Prices-kaggle
 date: 2019-07-09 21:27:00 +02:00
 tags:
 - kaggle
