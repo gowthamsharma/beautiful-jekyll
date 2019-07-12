@@ -8,7 +8,7 @@ visible:
   Key: 1
 ---
 
-Data: [Women's Shoe Prices-kaggle]
+Data: [Women's Shoe Prices-kaggle](https://github.com/gowthamsharma/uploads_for_blog/blob/master/womens-shoes-prices.zip)
 
 This is a list of 33,801 women's shoes and their 52 product information provided by Datafiniti's Product Database.
 
