@@ -3,8 +3,7 @@ title: Women's Shoe Prices-kaggle
 date: 2019-07-09 21:27:00 +02:00
 tags:
 - kaggle
-- linear regression
-- ttest
+- NaN
 visible:
   Key: 1
 ---
@@ -33,3 +32,4 @@ Further processing data would also let you:
 
 2.You can cross-reference this data with a sample of our Men's Shoe Prices to see if there are any differences between women's brands and men's brands.
 
+{% include women_shoe_prices.html %}
