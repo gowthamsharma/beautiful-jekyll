@@ -13130,21 +13130,7 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Data-exploration" data-toc-modified-id="Data-exploration-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Data exploration</a></span></li><li><span><a href="#Data-Visualization" data-toc-modified-id="Data-Visualization-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Data Visualization</a></span><ul class="toc-item"><li><span><a href="#The-infamous-NaN-or-missing-values-in-the-data" data-toc-modified-id="The-infamous-NaN-or-missing-values-in-the-data-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>The infamous NaN or missing values in the data</a></span></li><li><span><a href="#visualization-of-NaN-or-Visualization-of-missing-values-in-the-data-using-seaborn-library" data-toc-modified-id="visualization-of-NaN-or-Visualization-of-missing-values-in-the-data-using-seaborn-library-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>visualization of NaN or Visualization of missing values in the data using seaborn library</a></span></li><li><span><a href="#Bar-plot-NaN" data-toc-modified-id="Bar-plot-NaN-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Bar plot NaN</a></span></li><li><span><a href="#save-intermediate-file" data-toc-modified-id="save-intermediate-file-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>save intermediate file</a></span></li><li><span><a href="#lets-see-how-our-NaN-looks-after-dropping-some-NaN-columns" data-toc-modified-id="lets-see-how-our-NaN-looks-after-dropping-some-NaN-columns-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>lets see how our NaN looks after dropping some NaN columns</a></span></li></ul></li><li><span><a href="#cleaning" data-toc-modified-id="cleaning-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>cleaning</a></span><ul class="toc-item"><li><span><a href="#Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns" data-toc-modified-id="Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Hold on !! lets take an informative decision before we try removing any columns</a></span></li><li><span><a href="#drop-columns-which-are-not-necessary-for-the-analysis" data-toc-modified-id="drop-columns-which-are-not-necessary-for-the-analysis-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>drop columns which are not necessary for the analysis</a></span></li><li><span><a href="#let's-see-our-NaN-again" data-toc-modified-id="let's-see-our-NaN-again-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>let's see our NaN again</a></span></li><li><span><a href="#we-save-our-intermediate-file" data-toc-modified-id="we-save-our-intermediate-file-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>we save our intermediate file</a></span></li><li><span><a href="#Remove-non-ascii-characters-form-the-dataframe" data-toc-modified-id="Remove-non-ascii-characters-form-the-dataframe-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Remove non ascii characters form the dataframe</a></span></li></ul></li><li><span><a href="#feature-extraction" data-toc-modified-id="feature-extraction-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>feature extraction</a></span></li><li><span><a href="#feature-analysis" data-toc-modified-id="feature-analysis-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>feature analysis</a></span><ul class="toc-item"><li><span><a href="#handling-redundant-categorisation" data-toc-modified-id="handling-redundant-categorisation-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>handling redundant categorisation</a></span></li><li><span><a href="#replace-those-redundant-brands" data-toc-modified-id="replace-those-redundant-brands-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>replace those redundant brands</a></span></li><li><span><a href="#Now-let's-dollarize-all-those-non-dollar-transactions-;-btw-this-is-not-dollarization-which-is-a-whole-new-world" data-toc-modified-id="Now-let's-dollarize-all-those-non-dollar-transactions-;-btw-this-is-not-dollarization-which-is-a-whole-new-world-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>Now let's dollarize all those non dollar transactions ; btw this is not dollarization which is a whole new world</a></span></li><li><span><a href="#we-save-our-intermediate-file" data-toc-modified-id="we-save-our-intermediate-file-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>we save our intermediate file</a></span></li></ul></li><li><span><a href="#References" data-toc-modified-id="References-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>References</a></span></li></ul></div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="Marilyn-Monroe-AD.jpg"></p>
-
 </div>
 </div>
 </div>
@@ -13335,52 +13321,52 @@ The first form is missing completely at random (MCAR).  This form exists when th
   </thead>
   <tbody>
     <tr>
-      <th>4133</th>
-      <td>AVpfaBL71cnluZ0-kOQ3</td>
+      <th>11519</th>
+      <td>AVpfqjIZ1cnluZ0-o_Gy</td>
       <td>NaN</td>
-      <td>In-Sattva</td>
-      <td>Access.,Clothing,Shoes,Women's Clothing,In-sat...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2016-03-26T19:03:22Z</td>
-      <td>2017-03-02T16:48:53Z</td>
-      <td>[{"dateSeen":["2017-03-26T00:20:11.087Z","2017...</td>
+      <td>Aerosoles</td>
+      <td>Shoes,Women's Shoes,Clothing,All Women's Shoes</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>[{"key":"Worldstock Country","value":["India"]...</td>
+      <td>2016-11-01T09:43:53Z</td>
+      <td>2016-11-01T09:43:53Z</td>
+      <td>[{"dateSeen":["2016-11-01T09:43:52Z"],"sourceU...</td>
       <td>NaN</td>
-      <td>http://ak1.ostkcdn.com/images/products/1032600...</td>
+      <td>8.886720e+11</td>
+      <td>[{"key":"Heel Height","value":["Low (3/4 in. t...</td>
       <td>NaN</td>
-      <td>insattvawomensindianchevronprintpatialapantsin...</td>
+      <td>https://i5.walmartimages.com/asr/6c7b77ae-422d...</td>
       <td>NaN</td>
-      <td>23990009</td>
+      <td>888671861164,0888671861164,aerosoles/backatchacrl</td>
+      <td>Aerosoles</td>
+      <td>BACKATCHA-CRL</td>
+      <td>[{"dateSeen":["2016-11-01T09:43:53Z"],"name":"...</td>
+      <td>Aerosoles Back Atcha   Open-toe Synthetic  Sli...</td>
+      <td>16.99</td>
+      <td>16.99</td>
       <td>NaN</td>
-      <td>In-Sattva Women's Indian Chevron Print Patiala...</td>
-      <td>32.99</td>
-      <td>32.99</td>
       <td>NaN</td>
-      <td>Black</td>
-      <td>NaN</td>
+      <td>new</td>
       <td>NaN</td>
       <td>USD</td>
-      <td>2017-03-28T11:52:39Z</td>
-      <td>2017-03-26T00:20:11.087Z</td>
+      <td>2016-11-01T09:43:53Z</td>
+      <td>2016-10-31T00:00:00Z</td>
       <td>NaN</td>
-      <td>False</td>
-      <td>Overstock.com</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Medium</td>
-      <td>NaN</td>
-      <td>https://www.overstock.com/Worldstock-Fair-Trad...</td>
-      <td>NaN</td>
-      <td>[{"dateSeen":["2017-03-26T00:20:11.087Z","2017...</td>
+      <td>True</td>
+      <td>ApparelSave - Walmart.com</td>
+      <td>CLEARANCE USD 52.01</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>[{"sourceURLs":["https://www.overstock.com/Wor...</td>
-      <td>https://www.overstock.com/Worldstock-Fair-Trad...</td>
       <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Aerosoles-Back-Atch...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.walmart.com/ip/Aerosoles-Back-Atch...</td>
+      <td>8.886720e+11</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13390,36 +13376,36 @@ The first form is missing completely at random (MCAR).  This form exists when th
       <td>NaN</td>
     </tr>
     <tr>
-      <th>29761</th>
-      <td>AVsUu2tlv8e3D1O-mEx6</td>
+      <th>25672</th>
+      <td>AVqCJm3eU2_QcyX9OpCP</td>
       <td>NaN</td>
-      <td>Hades</td>
-      <td>Booties,Shoes,Women's Shoes</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2017-03-28T11:44:38Z</td>
-      <td>2017-03-28T11:44:38Z</td>
-      <td>[{"dateSeen":["2017-03-25T14:14:11.033Z"],"sou...</td>
+      <td>Skechers</td>
+      <td>Clogs,Mules,Shoes,Women's Shoes</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>[{"key":"Model Number","value":["SCARLET-BRWN"...</td>
+      <td>2017-02-28T00:37:20Z</td>
+      <td>2017-03-28T11:41:40Z</td>
+      <td>[{"dateSeen":["2017-03-25T11:17:39.411Z"],"sou...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{"key":"Model Number","value":["76587-NVPK-SB...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>hades/scarletbrwn,womenshadesscarletcagedsanda...</td>
+      <td>womensskechersworkrelaxedfitconroeabbenesesdox...</td>
       <td>NaN</td>
-      <td>SCARLET-BRWN</td>
+      <td>76587-NVPK-SB2W</td>
       <td>NaN</td>
-      <td>Women's Hades Scarlet Caged Sandal Brown</td>
-      <td>125.56</td>
-      <td>125.56</td>
+      <td>Women's Skechers Work Relaxed Fit Conroe Abben...</td>
+      <td>41.56</td>
+      <td>41.56</td>
       <td>NaN</td>
-      <td>UWomen's 10 M (Regular)</td>
+      <td>UWomen's 9 M (Regular)</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>USD</td>
-      <td>2017-03-28T11:44:38Z</td>
-      <td>2017-03-25T14:14:11.033Z</td>
+      <td>2017-03-28T11:41:40Z</td>
+      <td>2017-03-25T11:17:39.411Z</td>
       <td>NaN</td>
       <td>False</td>
       <td>Overstock.com</td>
@@ -13430,7 +13416,7 @@ The first form is missing completely at random (MCAR).  This form exists when th
       <td>NaN</td>
       <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
       <td>NaN</td>
-      <td>[{"dateSeen":["2017-03-25T14:14:11.033Z"],"sou...</td>
+      <td>[{"dateSeen":["2017-03-25T11:17:39.411Z"],"sou...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>[{"sourceURLs":["https://www.overstock.com/Clo...</td>
@@ -13445,107 +13431,52 @@ The first form is missing completely at random (MCAR).  This form exists when th
       <td>NaN</td>
     </tr>
     <tr>
-      <th>14073</th>
-      <td>AVpfXE8Z1cnluZ0-jXIU</td>
-      <td>B00IA63B4S</td>
-      <td>Pleaser</td>
-      <td>Women,Shoes,Boots</td>
-      <td>Black PuBlack Matte</td>
+      <th>33017</th>
+      <td>AVsUuxjtnnc1JgDc4Lzs</td>
       <td>NaN</td>
-      <td>2016-03-15T18:25:09Z</td>
-      <td>2016-07-21T22:56:32Z</td>
+      <td>Azura</td>
+      <td>Boots,Shoes,Women's Shoes</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>2017-03-28T11:44:17Z</td>
+      <td>2017-03-28T11:44:17Z</td>
+      <td>[{"dateSeen":["2017-03-25T13:57:16.188Z"],"sou...</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>http://ecx.images-amazon.com/images/I/41-1zHix...</td>
-      <td>NaN</td>
-      <td>pleaser/plefearless70028,pleaserfearless700287...</td>
-      <td>NaN</td>
-      <td>PLE-FEARLESS-700-28</td>
-      <td>NaN</td>
-      <td>Pleaser Fearless-700-28 7 Heel"</td>
-      <td>114.95</td>
-      <td>114.95</td>
+      <td>[{"key":"Model Number","value":["BLACKENBURY-T...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>womensazurablackenburyboottaupemicrosuede/1756...</td>
       <td>NaN</td>
-      <td>USD</td>
-      <td>2016-03-15T18:25:09Z</td>
-      <td>2016-03-19T00:00:00Z</td>
+      <td>BLACKENBURY-TP</td>
       <td>NaN</td>
-      <td>True</td>
+      <td>Women's Azura Blackenbury Boot Taupe Micro Suede</td>
+      <td>109.95</td>
+      <td>109.95</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>http://www.amazon.com/Pleaser-FEARLESS-700-28-...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>http://www.amazon.com/Pleaser-FEARLESS-700-28-...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>21179</th>
-      <td>AVphpxqVilAPnD_x7zgO</td>
-      <td>NaN</td>
-      <td>Nike</td>
-      <td>Shoes,Women's Shoes,Womens' Athletic Shoes,Ath...</td>
-      <td>Grey,OatmealOatmealOatmealBlack</td>
-      <td>NaN</td>
-      <td>2017-01-12T05:20:29Z</td>
-      <td>2017-03-28T11:40:13Z</td>
-      <td>[{"dateSeen":["2017-03-25T09:08:47.467Z"],"sou...</td>
-      <td>NaN</td>
-      <td>8.232290e+11</td>
-      <td>[{"key":"Shoe Width","value":["Medium","B(M)"]...</td>
-      <td>NaN</td>
-      <td>https://i5.walmartimages.com/asr/5a8f420a-cc3f...</td>
-      <td>NaN</td>
-      <td>nikewomensairforce1midlthrprmbasketballshoe/20...</td>
-      <td>Nike</td>
-      <td>857666 100</td>
-      <td>[{"dateSeen":["2017-01-12T05:20:29Z"],"name":"...</td>
-      <td>Nike Women's Air Force 1 Mid Lthr Prm Basketba...</td>
-      <td>114.90</td>
-      <td>114.90</td>
-      <td>NaN</td>
-      <td>omen US</td>
+      <td>Euro Women's 39 (UWms 8.5) M (Regular)</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>USD</td>
-      <td>2017-03-28T11:40:13Z</td>
-      <td>2017-03-25T09:08:47.467Z</td>
+      <td>2017-03-28T11:44:17Z</td>
+      <td>2017-03-25T13:57:16.188Z</td>
       <td>NaN</td>
       <td>False</td>
       <td>Overstock.com</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>8 W</td>
+      <td>S</td>
       <td>NaN</td>
-      <td>https://www.overstock.com/Clothing-Shoes/Nike-...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
       <td>NaN</td>
-      <td>[{"dateSeen":["2017-03-25T09:08:47.467Z","2017...</td>
+      <td>[{"dateSeen":["2017-03-25T13:57:16.188Z"],"sou...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>[{"sourceURLs":["https://www.overstock.com/Clo...</td>
-      <td>https://www.overstock.com/Clothing-Shoes/Nike-...</td>
-      <td>8.232290e+11</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13555,52 +13486,107 @@ The first form is missing completely at random (MCAR).  This form exists when th
       <td>NaN</td>
     </tr>
     <tr>
-      <th>537</th>
-      <td>AVpe416hLJeJML43xjja</td>
+      <th>8736</th>
+      <td>AVpfkBDWLJeJML43_fRM</td>
       <td>NaN</td>
-      <td>TOMS</td>
-      <td>Shoes,Women's Boots,Women's Shoes,Clothing</td>
-      <td>Castlerock Grey</td>
+      <td>Journee Collection</td>
+      <td>Heels,Shoes,Women's Shoes,Journee Collection</td>
+      <td>Black,Brown,Grey,Off-White,Red,Beige</td>
       <td>NaN</td>
-      <td>2016-11-02T20:05:26Z</td>
-      <td>2017-01-27T01:23:51Z</td>
-      <td>[{"dateSeen":["2016-11-02T20:05:26Z"],"sourceU...</td>
-      <td>NaN</td>
-      <td>8.864690e+11</td>
-      <td>[{"key":"Material","value":["suede","Suede"]},...</td>
-      <td>NaN</td>
-      <td>https://i5.walmartimages.com/asr/538bcc75-fe5e...</td>
-      <td>NaN</td>
-      <td>0886468920957,886468920957,toms/10006209,08864...</td>
-      <td>TOMS</td>
-      <td>10006209</td>
-      <td>[{"dateSeen":["2016-11-02T20:05:26Z"],"name":"...</td>
-      <td>Toms Women's Alpa Boot Boot</td>
-      <td>85.57</td>
-      <td>85.57</td>
+      <td>2016-03-26T19:40:07Z</td>
+      <td>2017-03-06T15:42:12Z</td>
+      <td>[{"dateSeen":["2017-03-25T14:30:21.023Z","2017...</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>new</td>
+      <td>[{"key":"Heel Height","value":["Mid Heel"]},{"...</td>
+      <td>NaN</td>
+      <td>http://ak1.ostkcdn.com/images/products/1090475...</td>
+      <td>NaN</td>
+      <td>journeecollectionwomensbaypatentanklestrappump...</td>
+      <td>NaN</td>
+      <td>BAY</td>
+      <td>NaN</td>
+      <td>Journee Collection Women's 'Bay' Patent Ankle ...</td>
+      <td>34.84</td>
+      <td>34.84</td>
+      <td>NaN</td>
+      <td>Grey 11</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>USD</td>
-      <td>2017-01-27T01:23:51Z</td>
-      <td>2017-01-24T00:00:00Z</td>
+      <td>2017-03-28T11:44:45Z</td>
+      <td>2017-03-25T14:30:21.023Z</td>
       <td>NaN</td>
       <td>False</td>
-      <td>shoezoo - Walmart.com</td>
+      <td>Overstock.com</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>https://www.walmart.com/ip/Toms-Women-s-Alpa-B...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Journ...</td>
+      <td>NaN</td>
+      <td>[{"dateSeen":["2017-03-25T14:30:21.023Z"],"sou...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{"sourceURLs":["https://www.overstock.com/Clo...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Journ...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>https://www.walmart.com/ip/Toms-Apla-Boots-Cas...</td>
-      <td>8.864690e+11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14117</th>
+      <td>AVpfXfPBilAPnD_xaf7A</td>
+      <td>NaN</td>
+      <td>In-Sattva</td>
+      <td>Access.,Clothing,Shoes,Women's Clothing,In-sat...</td>
+      <td>Beige</td>
+      <td>NaN</td>
+      <td>2016-03-27T20:30:04Z</td>
+      <td>2017-03-02T16:48:55Z</td>
+      <td>[{"dateSeen":["2017-03-25T22:59:30.166Z","2017...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{"key":"Worldstock Country","value":["India"]...</td>
+      <td>NaN</td>
+      <td>http://ak1.ostkcdn.com/images/products/9199182...</td>
+      <td>NaN</td>
+      <td>mohrwomensbeigeorangereversiblevestindia/16371...</td>
+      <td>NaN</td>
+      <td>5.00067E+13</td>
+      <td>NaN</td>
+      <td>MOHR Women's Beige/ Orange Reversible Vest (In...</td>
+      <td>59.99</td>
+      <td>59.99</td>
+      <td>NaN</td>
+      <td>Extra Beige</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>USD</td>
+      <td>2017-03-28T11:52:01Z</td>
+      <td>2017-03-25T22:59:30.166Z</td>
+      <td>NaN</td>
+      <td>False</td>
+      <td>Overstock.com</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Large</td>
+      <td>NaN</td>
+      <td>https://www.overstock.com/Worldstock-Fair-Trad...</td>
+      <td>NaN</td>
+      <td>[{"dateSeen":["2017-03-25T22:59:30.166Z","2017...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>[{"sourceURLs":["https://www.overstock.com/Wor...</td>
+      <td>https://www.overstock.com/Worldstock-Fair-Trad...</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13871,7 +13857,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="visualization-of-NaN-or-Visualization-of-missing-values-in-the-data-using-seaborn-library">visualization of NaN or Visualization of missing values in the data using seaborn library<a class="anchor-link" href="#visualization-of-NaN-or-Visualization-of-missing-values-in-the-data-using-seaborn-library">&#182;</a></h2>
+<h2 id="visualization-of-NaN-or-Visualization-of-missing-values">visualization of NaN or Visualization of missing values<a class="anchor-link" href="#visualization-of-NaN-or-Visualization-of-missing-values">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14296,12 +14282,6 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns">Hold on !! lets take an informative decision before we try removing any columns<a class="anchor-link" href="#Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>our agenda is to find</p>
 <p>1.What is the average price of each distinct brand listed?
 2.Which brands have the highest prices?
@@ -14428,96 +14408,96 @@ outperform brands with no return policy ; no drop | asins   92.842772 : drop | p
   </thead>
   <tbody>
     <tr>
-      <th>23013</th>
-      <td>AVpil9Az1cnluZ0-OvZq</td>
-      <td>Antelope</td>
-      <td>Sandals,Women,Shoes</td>
-      <td>Mustard,Black,Grey</td>
-      <td>2015-11-10T00:12:05Z</td>
-      <td>2016-07-19T06:51:21Z</td>
+      <th>5474</th>
+      <td>AVpfDcUQilAPnD_xT6vB</td>
+      <td>David Tate</td>
+      <td>Heels,Shoes,Women's Shoes,David Tate</td>
+      <td>Silver</td>
+      <td>2015-05-04T12:21:11Z</td>
+      <td>2017-03-02T16:37:24Z</td>
+      <td>[{"dateSeen":["2017-03-25T11:30:23.318Z"],"sou...</td>
+      <td>[{"key":"Heel Height","value":["Low Heel"]},{"...</td>
+      <td>womensdavidtatepromsilvermeshsatin/16429901,da...</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>antelope622slingbacksandal/b00to9vc8w,antelope...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>Antelope 622 Slingback Sandal</td>
-      <td>179.00</td>
-      <td>198.99</td>
+      <td>Women's David Tate Prom Silver Mesh/Satin by D...</td>
+      <td>104.95</td>
+      <td>104.95</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>USD</td>
-      <td>2015-11-10T00:12:05Z</td>
-      <td>2015-04-03T04:13:36.367Z</td>
-      <td>False</td>
+      <td>2017-03-28T11:41:49Z</td>
+      <td>2017-03-25T11:30:23.318Z</td>
+      <td>True</td>
+      <td>Overstock.com</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>http://www.amazon.com/Antelope-Womens-622-Plat...</td>
-      <td>http://www.amazon.com/Antelope-Womens-622-Plat...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>12672</th>
-      <td>AVpfTBxkilAPnD_xZFYb</td>
-      <td>Reebok</td>
-      <td>Women's Athletic Shoes,Shoes,Clothing,Women's ...</td>
-      <td>Grey</td>
-      <td>2017-01-27T01:24:13Z</td>
-      <td>2017-01-27T01:24:13Z</td>
-      <td>[{"dateSeen":["2017-01-27T01:24:13Z"],"sourceU...</td>
-      <td>[{"key":"Manufacturer Part Number","value":["V...</td>
-      <td>886839126209,reebok/v53817,0886839126209</td>
-      <td>Reebok</td>
-      <td>[{"dateSeen":["2017-01-27T01:24:13Z"],"name":"...</td>
-      <td>Reebok Zigkick Tahoe Road</td>
-      <td>39.95</td>
-      <td>39.95</td>
+      <th>27898</th>
+      <td>AVqP4qCWv8e3D1O-lcOM</td>
+      <td>Ros Hommerson</td>
+      <td>Sandals,Shoes,Women's Shoes</td>
       <td>NaN</td>
-      <td>new</td>
+      <td>2017-03-02T16:37:58Z</td>
+      <td>2017-03-28T11:42:36Z</td>
+      <td>[{"dateSeen":["2017-03-25T12:03:18.102Z"],"sou...</td>
+      <td>[{"key":"Heel Height","value":["Low Heel"]},{"...</td>
+      <td>roshommerson/6701388,womensroshommersonmabelsa...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Women's Ros Hommerson Mabel Sandal Dusty Pewte...</td>
+      <td>100.45</td>
+      <td>100.45</td>
+      <td>UWomen's 12 N (Narrow)</td>
+      <td>NaN</td>
       <td>USD</td>
-      <td>2017-01-27T01:24:13Z</td>
-      <td>2017-01-24T00:00:00Z</td>
+      <td>2017-03-28T11:42:36Z</td>
+      <td>2017-03-25T12:03:18.102Z</td>
       <td>False</td>
-      <td>SHOEBACCA LTD. - Walmart.com</td>
+      <td>Overstock.com</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>https://www.walmart.com/ip/Reebok-Zigkick-Taho...</td>
-      <td>https://www.walmart.com/ip/Reebok-Zigkick-Taho...</td>
+      <td>S</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
+      <td>https://www.overstock.com/Clothing-Shoes/Women...</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7822</th>
-      <td>AVpfIFEz1cnluZ0-edya</td>
-      <td>TOMS</td>
-      <td>Shoes,Clothing,Women's Shoes,All Women's Shoes</td>
+      <th>5417</th>
+      <td>AVpfD8SEilAPnD_xUF2l</td>
+      <td>Marc Fisher</td>
+      <td>Women's Shoes,Boots,See more Marc Fisher Kessl...</td>
+      <td>Browns</td>
+      <td>2016-04-14T07:52:11Z</td>
+      <td>2016-04-14T07:52:11Z</td>
       <td>NaN</td>
-      <td>2016-11-04T02:51:24Z</td>
-      <td>2016-11-04T02:51:24Z</td>
-      <td>[{"dateSeen":["2016-11-02T20:05:09Z"],"sourceU...</td>
-      <td>[{"key":"Shoe Size","value":["12M"]},{"key":"D...</td>
-      <td>toms/10005417darkgreystripeuniversity12m,08864...</td>
-      <td>Toms</td>
-      <td>[{"dateSeen":["2016-11-04T02:51:24Z"],"name":"...</td>
-      <td>Toms Women's Classic Striped Canvas Dark Grey ...</td>
-      <td>53.46</td>
-      <td>53.46</td>
+      <td>[{"key":"Heel Height","value":["High (3in. and...</td>
+      <td>887046318494,0887046318494,marcfishernewbrownw...</td>
       <td>NaN</td>
-      <td>new</td>
+      <td>[{"dateSeen":["2016-04-13T00:00:00Z"],"name":"...</td>
+      <td>Marc Fisher New Brown Women's Shoes Size 10 Fa...</td>
+      <td>57.49</td>
+      <td>57.49</td>
+      <td>NaN</td>
+      <td>New with box</td>
       <td>USD</td>
-      <td>2016-11-04T02:51:24Z</td>
-      <td>2016-11-01T00:00:00Z</td>
+      <td>2016-04-14T07:52:11Z</td>
+      <td>2016-04-13T00:00:00Z</td>
       <td>False</td>
-      <td>AreaTrend - Walmart.com</td>
       <td>NaN</td>
+      <td>winning bid</td>
       <td>NaN</td>
+      <td>USD 9.99</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>https://www.walmart.com/ip/Toms-Women-s-Classi...</td>
-      <td>https://www.walmart.com/reviews/product/482688...</td>
+      <td>http://www.ebay.com/itm/Marc-Fisher-NEW-Brown-...</td>
+      <td>http://www.ebay.com/itm/Marc-Fisher-NEW-Brown-...</td>
       <td>NaN</td>
     </tr>
   </tbody>
@@ -14703,53 +14683,53 @@ outperform brands with no return policy ; no drop | asins   92.842772 : drop | p
   </thead>
   <tbody>
     <tr>
-      <th>6592</th>
-      <td>[{</td>
-      <td>Women"]},{"key":"Shoe Size","value":["6M"]},{"...</td>
+      <th>13122</th>
+      <td>[{"key":"Heel Height","value":["Low (3/4 in. t...</td>
+      <td>Women"]},{"key":"Material","value":["Leather"]...</td>
     </tr>
     <tr>
-      <th>7480</th>
-      <td>[{</td>
-      <td>Boys"]},{"key":"Shoe Category","value":["Boys'...</td>
-    </tr>
-    <tr>
-      <th>14189</th>
-      <td>[{"key":"Size","value":["10, 11, 12, 6, 6.5, 7...</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>8016</th>
-      <td>[{"key":"Heel Height","value":["2 Inches"]},{</td>
-      <td>Women"]},{"key":"Shoe Category","value":["Wome...</td>
-    </tr>
-    <tr>
-      <th>22325</th>
-      <td>[{"key":"Heel Height","value":["Low Heel"]},{"...</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>24964</th>
-      <td>[{"key":"Shoe Width","value":["Medium"]},{"key...</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <th>33001</th>
+      <th>4706</th>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>14752</th>
-      <td>[{"key":"Heel Height","value":["High Heel"]},{...</td>
+      <th>10185</th>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13449</th>
+      <td>[{</td>
+      <td>Women"]},{"key":"Material","value":["Leather"]...</td>
+    </tr>
+    <tr>
+      <th>24060</th>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>18687</th>
+      <td>[{"key":"Heel Height","value":["Low (3/4 in. t...</td>
       <td>None</td>
     </tr>
     <tr>
-      <th>882</th>
-      <td>[{</td>
-      <td>Women"]},{"key":"Size","value":["11"]},{"key":...</td>
+      <th>16430</th>
+      <td>[{"key":"Shoe Size","value":["6.5 M"]},{</td>
+      <td>Women"]},{"key":"Size","value":["6.5 M"]},{"ke...</td>
     </tr>
     <tr>
-      <th>21230</th>
-      <td>[{"key":"Heel Height","value":["High Heel"]},{...</td>
+      <th>20173</th>
+      <td>[{"key":"Style","value":["Oxfords"]},{"key":"O...</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>13685</th>
+      <td>[{"key":"Heel Height","value":["Low (3/4 in. t...</td>
+      <td>Women"]},{"key":"Shoe Size","value":["6"]},{"k...</td>
+    </tr>
+    <tr>
+      <th>32772</th>
+      <td>[{"key":"Model Number","value":["S1606-001"]},...</td>
       <td>None</td>
     </tr>
   </tbody>
@@ -14804,12 +14784,12 @@ Women&#34;,&#34;Men          29
 Women&#39;s              28
 Girls                27
 Womens               12
-Unisex&#34;,&#34;Women        9
-Women&#34;,&#34;Girls         9
 Boys                  9
+Women&#34;,&#34;Girls         9
 Men&#34;,&#34;Women           9
-Women&#34;,&#34;Unisex        7
+Unisex&#34;,&#34;Women        9
 Men&#34;,&#34;Unisex          7
+Women&#34;,&#34;Unisex        7
 Girls&#34;,&#34;Women         6
 Women&#34;,&#34;Female        4
 Female&#34;,&#34;Women        3
@@ -14955,36 +14935,36 @@ ros hommerson                      241
 beston                             240
 vaneli                             237
                                   ... 
-bebe sport                           1
-the petting zoo                      1
-blondo                               1
-mary pepper                          1
-gama studio                          1
-extersteps                           1
-salvatore ferragamo                  1
-style &amp; co                           1
-callaway footwear                    1
-trotter                              1
-themogan                             1
-sophia webster                       1
-house of dereon                      1
+life is good                         1
+disguise costumes                    1
+hounds                               1
+wanderlust                           1
+cheeks                               1
 free people                          1
-bettie page                          1
-breckelles                           1
-collonil                             1
-slm                                  1
-simplicity                           1
-cl by laundry                        1
-fabrique                             1
-personal identity                    1
-landau                               1
-crazy slippers                       1
-tkees                                1
-nicholas kirkwood                    1
+glister                              1
+born to accessorize                  1
+genuine dickies                      1
+etienne aigner                       1
+eurosoft by sofft                    1
+is-shirley of hollywood              1
+m&amp;f western                          1
+arche                                1
 k. bell socks                        1
-chase &amp; chloe                        1
-jones new york                       1
-belle by sigerson morrison           1
+helmut lang                          1
+croft &amp; barrow                       1
+tidewater                            1
+josmo                                1
+pedi couture                         1
+hortense b. hewitt                   1
+touchstone                           1
+toptie                               1
+oneal                                1
+sole                                 1
+callaway footwear                    1
+tundra                               1
+static fashion                       1
+90 degree by reflex                  1
+tkees                                1
 Name: brand, Length: 1222, dtype: int64</pre>
 </div>
 
@@ -15214,7 +15194,7 @@ Name: prices.amountMax, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Now-let's-dollarize-all-those-non-dollar-transactions-;-btw-this-is-not-dollarization-which-is-a-whole-new-world">Now let's dollarize all those non dollar transactions ; btw this is not dollarization which is a whole new world<a class="anchor-link" href="#Now-let's-dollarize-all-those-non-dollar-transactions-;-btw-this-is-not-dollarization-which-is-a-whole-new-world">&#182;</a></h2>
+<h2 id="Now-let's-convert-all-those-non-dollar-transactions">Now let's convert all those non dollar transactions<a class="anchor-link" href="#Now-let's-convert-all-those-non-dollar-transactions">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15351,18 +15331,11 @@ Name: prices.currency, dtype: int64</pre>
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## visualize NaN again</span>
-</pre></div>
-
-    </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="visualize-NaN-again">visualize NaN again<a class="anchor-link" href="#visualize-NaN-again">&#182;</a></h2>
 </div>
 </div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
