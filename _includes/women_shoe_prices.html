@@ -14435,54 +14435,7 @@ dtype: float64</pre>
 <h1 id="Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns">Hold on !! lets take an informative decision before we try removing any columns<a class="anchor-link" href="#Hold-on-!!-lets-take-an-informative-decision-before-we-try-removing-any-columns">&#182;</a></h1>
 </div>
 </div>
-</div>our agenda is to find
-
-1.What is the average price of each distinct brand listed?
-2.Which brands have the highest prices?
-3.Which ones have the widest distribution of prices?
-4.Is there a typical price distribution (e.g., normal) across brands or within specific brands?
-
-To answer these above questions we don't need any of the below but for future analysis of data lets say price valuation of newly
-arrived shoe design , for this we may or may not need some of these feature .
-
-It is always advised to have the data but not need it than need the data but not have it !
-
-dimension	96.517545% NaN : price of shoe is pretty much same for average sizes but may vary for rare sizes like size 12 ; drop
-weight	96.263092 : definitely an important feature , nobody wants to wear a heavy shoes ; no drop
-prices.returnPolicy	95.934671 : unfortunate that 95% data is not available, brands with more open return policy definitely 
-outperform brands with no return policy ; no drop
-asins	92.842772 : drop
-prices.shipping	88.321794 : directly proportional to pricing ; no drop
-reviews	87.614652 : not needed for pricing ; drop : although reviews are good information of customer satisfaction ; the information available is very low ; may create bias
-prices.offer	79.886384 : most crucial data , cant drop it 
-sizes	74.548790 ; again drop, although this data can be used to compare abnormal prices
-manufacturer	72.545713 ; crucial for seller but not for buyer, buyer only cares about brand
-ean	71.069294 : drop , upc	68.270312 : drop
-prices.condition	64.450559 : very important 
-merchants	54.488431 : important 
-prices.size	54.461802 : important
-prices.color	48.455530 : important
-quantities	45.292621 : drop
-colors	41.292384 : very important
-skus	34.507959 : drop
-imageURLs	34.002012 : drop
-features	19.578082 : very important in fact it is hiding some very useful information 
-descriptions	15.897390 : important
-prices.merchant	11.465175 : important
-manufacturerNumber	7.003373 : drop
-
-so finally we drop 
-
-dimension
-asins
-reviews
-sizes
-ean
-upc
-quantities
-skus
-imageURLs
-manufacturerNumber
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 
