@@ -8,4 +8,4 @@ visible:
   Key: 1
 ---
 
-{% include women_shoe.html %}
+{% include women_shoe_prices.html %}
