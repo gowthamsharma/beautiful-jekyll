@@ -13131,7 +13131,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Fetch-the-daily-returns-for-a-stock" data-toc-modified-id="Fetch-the-daily-returns-for-a-stock-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Fetch the daily returns for a stock</a></span></li><li><span><a href="#Fetch-the-daily-returns-from-quandle-directly" data-toc-modified-id="Fetch-the-daily-returns-from-quandle-directly-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Fetch the daily returns from quandle directly</a></span></li><li><span><a href="#Import-benchmark" data-toc-modified-id="import-benchmark-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>import benchmark</a></span></li><li><span><a href="#Preliminary-plots" data-toc-modified-id="Preliminary-plots-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Preliminary plots</a></span></li><li><span><a href="#Moving-Averages" data-toc-modified-id="Moving-Averages-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Moving Averages</a></span><ul class="toc-item"><li><span><a href="#Exponential-Moving-Averages" data-toc-modified-id="Exponential-Moving-Averages-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Exponential Moving Averages</a></span></li></ul></li><li><span><a href="#Relative-strength-and-Relative-Strength-Index" data-toc-modified-id="Relative-strength-and-Relative-Strength-Index-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Relative strength and Relative Strength Index</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Fetch-the-daily-returns-for-a-stock" data-toc-modified-id="Fetch-the-daily-returns-for-a-stock-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Fetch the daily returns for a stock</a></span></li><li><span><a href="#Fetch-the-daily-returns-from-quandle-directly" data-toc-modified-id="Fetch-the-daily-returns-from-quandle-directly-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Fetch the daily returns from quandle directly</a></span></li><li><span><a href="#Import-benchmark" data-toc-modified-id="Import-benchmark-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Import benchmark</a></span></li><li><span><a href="#Preliminary-plots" data-toc-modified-id="Preliminary-plots-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Preliminary plots</a></span></li><li><span><a href="#Moving-Averages" data-toc-modified-id="Moving-Averages-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Moving Averages</a></span><ul class="toc-item"><li><span><a href="#Exponential-Moving-Averages" data-toc-modified-id="Exponential-Moving-Averages-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Exponential Moving Averages</a></span></li></ul></li><li><span><a href="#Relative-strength-and-Relative-Strength-Index" data-toc-modified-id="Relative-strength-and-Relative-Strength-Index-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Relative strength and Relative Strength Index</a></span></li></ul></div>
 </div>
 </div>
 </div>
@@ -13306,7 +13306,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="import-benchmark">import benchmark<a class="anchor-link" href="#import-benchmark">&#182;</a></h1>
+<h1 id="Import-benchmark">Import benchmark<a class="anchor-link" href="#Import-benchmark">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -13315,7 +13315,7 @@ div#notebook {
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">symbol</span> <span class="o">=</span> <span class="s1">&#39;^GSPC&#39;</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">symbol</span> <span class="o">=</span> <span class="s1">&#39;^GSPC&#39;</span> <span class="c1"># s&amp;p500</span>
 <span class="n">SPY</span> <span class="o">=</span> <span class="n">web</span><span class="o">.</span><span class="n">DataReader</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="s1">&#39;yahoo&#39;</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="s1">&#39;2015-07-04&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;2017-07-04&#39;</span><span class="p">)</span>
 <span class="n">SPY</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
