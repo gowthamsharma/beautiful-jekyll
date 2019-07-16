@@ -17,7 +17,7 @@ tags:
 #### Reshaping, sorting, transposing
 #### Combining / joining / merging
 
-### ipython:[Analysis_titanic_pandas.ipynb](/uploads/Analysis_titanic_pandas.ipynb)
+
 ### dataset:[titanic.csv](/uploads/titanic.csv)
 
 
