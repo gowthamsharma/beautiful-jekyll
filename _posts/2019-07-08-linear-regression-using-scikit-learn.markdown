@@ -35,6 +35,6 @@ layout: post
         - MEDV     Median value of owner-occupied homes in $1000's
 
 
-### ipython: [linear_regression_scikit_learn.ipynb](/uploads/linear_regression_scikit_learn.ipynb)
+
 
 {% include linear_regression_scikit_learn.html %}
