@@ -5,7 +5,7 @@ tags:
 - python
 ---
 
-#  
+# Technical analysis of trading data
 
 
 
