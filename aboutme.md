@@ -6,4 +6,4 @@ layout: page
 
 I study Quantitative finance at Frankfurt school of finance and management Frankfurt Germany.   
   
-I am an avid trekker and I respect and admire nature 
+I am an avid trekker, I respect and admire nature 
