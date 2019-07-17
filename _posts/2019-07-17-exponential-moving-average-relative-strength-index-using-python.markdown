@@ -5,7 +5,8 @@ tags:
 - python
 ---
 
-## This notebook discusses the basics of Exponential moving average, Relative strength index using python
+## 
+
 
 
 
