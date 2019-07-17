@@ -60,7 +60,7 @@ title-separator: "-"
 markdown: kramdown
 highlighter: rouge
 permalink: "/:year-:month-:day-:title/"
-paginate: 50
+paginate: 6
 kramdown:
   input: GFM
 link-tags: true
