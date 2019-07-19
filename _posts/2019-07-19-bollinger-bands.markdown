@@ -8,4 +8,4 @@ tags:
 
 ## Algorithmic Trading and technical analysis using Bollinger bands , quantopian platform
 
-{% include bollinger.html %}
+{% include  bollinger.html  %}
