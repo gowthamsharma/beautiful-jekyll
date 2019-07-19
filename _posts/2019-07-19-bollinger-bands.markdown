@@ -6,6 +6,6 @@ tags:
 - bollinger bands
 ---
 
-## Algorithmic Trading and technical analysis using Bollinger bands , quantopian platform
+Algorithmic Trading and technical analysis using Bollinger bands , quantopian platform
 
 {% include  bollinger.html  %}
