@@ -6,6 +6,6 @@ tags:
 - pairs trading
 ---
 
-## Pairs trading of two moderately correlated stocks using quantopian platform
+Pairs trading of two moderately correlated stocks using quantopian platform
 
 {% include pairs.html %}
