@@ -5,6 +5,6 @@ tags:
 - quantopian
 ---
 
-# This is the first of many posts of algorithmic trading by using quantopian platform
+Algorithmic Trading using quantopian platform
 
 {% include helloworld.html %}
