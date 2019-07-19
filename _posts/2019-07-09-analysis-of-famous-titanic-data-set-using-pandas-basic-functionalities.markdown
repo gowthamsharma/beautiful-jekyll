@@ -5,20 +5,28 @@ tags:
 - pandas
 ---
 
-## Analysis:
-#### Attributes and underlying data
-#### Conversion
-#### Indexing, iteration
-#### Binary operator functions
-#### Function application, GroupBy & Window
-#### Computations / Descriptive Stats
-#### Reindexing / Selection / Label manipulation
-#### Missing data handling
-#### Reshaping, sorting, transposing
-#### Combining / joining / merging
+### Analysis:
 
+### Attributes and underlying data
+
+### Conversion
+
+### Indexing, iteration
+
+### Binary operator functions
+
+### Function application, GroupBy & Window
+
+### Computations / Descriptive Stats
+
+### Reindexing / Selection / Label manipulation
+
+### Missing data handling
+
+### Reshaping, sorting, transposing
+
+### Combining / joining / merging
 
 ### dataset:[titanic.csv](/uploads/titanic.csv)
-
 
 {% include Analysis_titanic_pandas.html %}
