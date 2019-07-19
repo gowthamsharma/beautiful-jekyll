@@ -9,4 +9,4 @@ tags:
 ## Pairs trading of two moderately correlated stocks using quantopian platform
 
 
-{% include pairs.html %}
+{% include pairs1.html %}
