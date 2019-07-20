@@ -1,6 +1,6 @@
 ---
-title: Pairs Trading
-date: 2019-07-19 13:10:00 +02:00
+title: Pairs trading
+date: 2019-07-18 23:12:00 +02:00
 tags:
 - quantopian
 - pairs trading
