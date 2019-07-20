@@ -6,6 +6,6 @@ tags:
 - leverage
 ---
 
-How to use leverage in quantopian platform?
+How to use leverage on quantopian platform?
 
 {% include leverage.html %}
