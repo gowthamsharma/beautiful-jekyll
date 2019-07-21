@@ -6,6 +6,5 @@ tags:
 - futures
 ---
 
-Futures on quantopian                  
-
+Futures on quantopian
 {% include futures.html %} 
