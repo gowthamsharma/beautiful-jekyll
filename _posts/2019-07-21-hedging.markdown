@@ -1,0 +1,9 @@
+---
+title: Hedging
+date: 2019-07-21 02:59:00 +02:00
+---
+
+Understanding the effect of hedging using python and visualization
+
+
+{% include hedging.html %}
