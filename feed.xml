@@ -9,38 +9,88 @@
 
 <url>
   <loc>https://finpy.org/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://finpy.org/tags/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://finpy.org/aboutme/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-21-futures-on-quantopian/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-21-hedging/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-20-leverage/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-19-bollinger-bands/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-18-pairs-trading/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-18-algorithmic-trading-hello-world/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://finpy.org/page2/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://finpy.org/2019-07-09-womens-shoe-prices-a-list-of-10-000-womens-shoes-and-the-prices-at-which-they-are-sold/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://finpy.org/2019-07-09-analysis-of-famous-titanic-data-set-using-pandas-basic-functionalities/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://finpy.org/2019-07-14-women-shoe-brands-kaggle-continued-analysis/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://finpy.org/2019-07-08-linear-regression-using-scikit-learn/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://finpy.org/2019-07-04-ols/</loc>
-  <lastmod>2019-07-10T20:29:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-09-analysis-of-famous-titanic-data-set-using-pandas-basic-functionalities/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://finpy.org/2019-07-17-exponential-moving-average-relative-strength-index-using-python/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://finpy.org/page3/</loc>
+  <lastmod>2019-07-21T16:49:10+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
