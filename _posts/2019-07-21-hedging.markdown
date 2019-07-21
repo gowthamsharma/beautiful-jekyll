@@ -1,6 +1,11 @@
 ---
 title: Hedging
 date: 2019-07-21 02:59:00 +02:00
+tags:
+- quantopian
+- hedging
+- statsmodels
+- linear regression
 ---
 
 Understanding the effect of hedging using python and visualization
