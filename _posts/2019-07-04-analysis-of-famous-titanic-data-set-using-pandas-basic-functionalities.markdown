@@ -4,7 +4,7 @@ date: 2019-07-04 01:59:00 +02:00
 permalink: "/future/"
 tags:
 - pandas
-layout: minimal
+layout: post
 ---
 
 ### dataset:[titanic.csv](/uploads/titanic.csv)
