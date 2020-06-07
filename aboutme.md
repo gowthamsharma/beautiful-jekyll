@@ -4,6 +4,5 @@ subtitle: Gowtham Kumar Huliyar Nagarajan
 layout: page
 ---
 
-I study Quantitative finance at Frankfurt school of finance and management Frankfurt Germany.   
-  
-I am an avid trekker, I respect and admire nature 
+I study Quantitative Finance at Frankfurt School of Finance and Management in Frankfurt Germany.   
+
