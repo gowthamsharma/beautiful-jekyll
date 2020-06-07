@@ -5,5 +5,5 @@ tags:
 - python
 ---
 
-
+Vlookup using python's map method
 {% include vlookup.html %}
