@@ -21,9 +21,9 @@ defaults:
   values:
     layout: page
     show-avatar: true
-description: finpy.org
+description: finpy.info
 navbar-links:
-  Index: https://finpy.org/tags/
+  Index: https://finpy.info/tags/
   About Me: aboutme
 avatar: "/img/avatar-icon.png"
 navbar-col: "#F5F5F5"
@@ -45,7 +45,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-url-pretty: finpy.org
+url-pretty: finpy.info
 google_analytics: UA-143311068-1
 disqus: finpy-org
 staticman:
