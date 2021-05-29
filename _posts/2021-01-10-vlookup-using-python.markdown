@@ -1,6 +1,6 @@
 ---
 title: Vlookup using Python
-date: 2020-06-07 13:00:00 +02:00
+date: 2021-01-10 13:00:00 +01:00
 tags:
 - python
 ---
