@@ -1,6 +1,6 @@
 ---
 title: Portfolio allocation optimization with Python
-date: 2019-07-22 23:15:00 +02:00
+date: 2020-02-20 23:15:00 +01:00
 ---
 
 portfolio allocation weights optimization using scipy library of python
