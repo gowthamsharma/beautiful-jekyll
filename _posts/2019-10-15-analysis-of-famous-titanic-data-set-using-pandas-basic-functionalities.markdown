@@ -1,6 +1,6 @@
 ---
 title: Analysis of famous Titanic data set using pandas basic functionalities
-date: 2019-07-18 01:59:00 +02:00
+date: 2019-10-15 01:59:00 +02:00
 permalink: "/future/"
 tags:
 - pandas
